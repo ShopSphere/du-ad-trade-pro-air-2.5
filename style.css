@@ -1,0 +1,49 @@
+body{background-color:#fff}
+a{color:#0198bd;text-decoration:none}
+.tac{text-align:center}
+.wrapper{width:100%;max-width:1140px;margin:0 auto;font-family:'Open Sans',sans-serif}
+.wrapper .main_container{min-height:100px;background-color:#fff;width:100%;padding:0 0 40px;margin:0 0 20px;display: flex;}
+.wrapper .main_container .content{display:inline-block;vertical-align:top;*display:inline;zoom:1;width:68%;min-height:100px;padding:0 10px}
+.wrapper .main_container .content h1{color:#333;font-size:42px;letter-spacing:0;line-height:50px;margin:10px 0 0;padding:10px 5px;font-weight:700}
+.wrapper .main_container .content h2{color:#333;font-size:25px;letter-spacing:0;margin:20px 0 0;padding:0 0;line-height:35px;}
+.wrapper .main_container .content img{width:100%;margin:0 auto;display:block}
+.wrapper .main_container .content p{color:#0f0f0f;font-size:16px;margin:20px 0;padding:0;line-height:28px}
+.wrapper .main_container .content ul{margin:20px 0}
+.wrapper .main_container .content ul li{list-style:none;background-size:20px auto;background-repeat:no-repeat;background-position:left top;padding:0 0 0 30px;margin:10px 0;color:#262626}
+.wrapper .main_container .content ul{margin:20px 0;padding:0}
+.wrapper .main_container .content ul li{list-style:none;font-weight:700}
+.wrapper .main_container .sidebar{display:inline-block;vertical-align:top;*display:inline;zoom:1;width:29%;min-height:100px;margin:0 0;flex:1;padding: 0 15px 0 10px;}
+.wrapper .main_container .sidebar img{display:block;background-size:100% auto;width:100%;margin:20px auto 10px}
+.wrapper .main_container .sidebar p{margin:0;padding:0;font-size:15px;font-style:italic;line-height:22px}
+.wrapper .main_container .sidebar h3{font-size:15px;margin:0;padding:0}
+.wrapper .main_container .sidebar .baa{margin:20px 0 0;padding:0}
+.wrapper .main_container .sidebar .baa .title,.wrapper .main_container .sidebar .title{border-bottom:2px solid #0198bd;margin:20px 0 20px}
+.wrapper .main_container .sidebar .baa .title h1,.wrapper .main_container .sidebar .title h1{margin:10px 0;padding:0;font-size:22px;line-height:29px;font-weight:400;color:#666;text-transform:uppercase}
+.wrapper .main_container .sidebar .baa img{display:block;background-size:100% auto;width:100%;margin:20px auto 10px}
+.wrapper .main_container .sidebar .baa p{margin:0 0 10px;padding:0;font-size:16px;line-height:28px}
+.wrapper .main_container .sidebar .baa h3{font-size:15px;margin:7px 0;padding:0}
+.wrapper .main_container .sidebar .baa .side-box{display:block;background-color:#fff;border:1px solid #ccc;padding:10px;margin:20px 0;background-color:#f5f9fa}
+.wrapper .main_container .sidebar .baa .side-box h1{background-position:left center;background-repeat:no-repeat;margin:0;font-size:20px;padding:7px 0 5px 0;vertical-align:bottom}
+.wrapper .main_container .sidebar .baa .side-box img{display:block;margin:20px auto;width:100%}
+.wrapper .main_container .sidebar .baa .side-box h2{display:block;font-size:18px;line-height:29px;color:#434343;margin:0 0;padding:0}
+.wrapper .facebook{width:100%;margin:20px 0}
+@media only screen and (max-width:750px){
+.wrapper .main_container .sidebar{display:block;width:100%;max-width:350px;margin:30px auto}
+.wrapper .main_container .content h1{font-size:25px;letter-spacing:0;line-height:32px}
+.wrapper .main_container .content{display:block;width:100%}
+.wrapper .main_container .content h2{font-size:20px;line-height:30px}
+.wrapper .main_container .content p{font-size:14px;line-height:24px}
+}
+#story .hero-deposit-img{padding:0;display:inline-block;width:65.4%;margin:0;float:left}
+#story .hero-deposit-svg{enable-background:new 0 0 267 519;padding:0;display:inline-block;width:33.9%;margin:0}
+@media only screen and (max-width:500px){
+#story .hero-deposit-img,#story .hero-deposit-svg{width:100%}
+}
+
+.logos-wrapper img{width:auto!important;margin:0!important;max-width:unset!important}
+.success-icon{width:auto!important}
+
+@media only screen and (max-width:875px){
+    .wrapper .main_container .sidebar{display:none;}
+    .wrapper .main_container .content{width:100%;}
+    }

@@ -1,0 +1,26 @@
+﻿function getLastFewDays(num, onlyDisplayYear) {
+    moment.locale('nl');
+
+    var from = moment();
+    var isJan = false;
+    if (from.month() == 0 && from.date() <= 6) isJan = true;
+
+    var day = from.subtract(num, 'days');
+
+    var str = "";
+    var _format = "DD MMM";
+
+    str = day.format(_format);
+
+    if (onlyDisplayYear) {
+        str = day.year();
+    }
+    if (isJan) {
+        _format = "DD MMM, YYYY";
+        str = day.format(_format);
+        if (onlyDisplayYear) {
+            str = "";
+        }
+    }
+    document.write(str);
+}
